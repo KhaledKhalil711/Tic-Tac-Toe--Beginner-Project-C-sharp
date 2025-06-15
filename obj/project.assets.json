@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Khaled Khalil\\.nuget\\packages\\": {}
+    "C:\\Users\\Khaled Khalil\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Khaled Khalil\\Desktop\\Jeu in c#\\Tic-Tac-Toe\\Tic-Tac-Toe.csproj",
+      "projectUniqueName": "C:\\Users\\Khaled Khalil\\Desktop\\Tic Tac Toe Repository\\Tic-Tac-Toe--Beginner-Project-C-\\Tic-Tac-Toe.csproj",
       "projectName": "Tic-Tac-Toe",
-      "projectPath": "C:\\Users\\Khaled Khalil\\Desktop\\Jeu in c#\\Tic-Tac-Toe\\Tic-Tac-Toe.csproj",
+      "projectPath": "C:\\Users\\Khaled Khalil\\Desktop\\Tic Tac Toe Repository\\Tic-Tac-Toe--Beginner-Project-C-\\Tic-Tac-Toe.csproj",
       "packagesPath": "C:\\Users\\Khaled Khalil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Khaled Khalil\\Desktop\\Jeu in c#\\Tic-Tac-Toe\\obj\\",
+      "outputPath": "C:\\Users\\Khaled Khalil\\Desktop\\Tic Tac Toe Repository\\Tic-Tac-Toe--Beginner-Project-C-\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Khaled Khalil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -62,24 +67,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.14, 8.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.14, 8.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.14, 8.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.14, 8.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
