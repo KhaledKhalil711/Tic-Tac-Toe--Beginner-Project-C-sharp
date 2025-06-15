@@ -1,0 +1,10 @@
+While I was coding this game, I the logic for creating the board and the conditions was not hard to figure out.
+I was thinking at first to use a 2d array to represent the board of the game, but soon I changed it into a one dimension array because it 
+suited my needs more. Another tricky mechanic that I faced was designing a mechanic that allows me to switch between each player at the end
+of each turn, and I found that creating a current player object that changes at the end of each iteration was the best solution for the problem.
+I just switched current player at the end of each iteration and call the function PlayGame() recursively until the attempts end or a 
+winner is actually verified.
+Also one of the difficulties that I have faced was the architecture and design of the code. I ended up designing 3 classes, one class 
+to hold the information of the player, the other is a class to hold the functionality of the game, and the last one to do all the necessary
+printing of boards and displaying all the information needed. I feel like with this design, I managed to capture the essence of the game
+and organize it in a manner that is easy to read and work with.
